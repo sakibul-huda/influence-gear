@@ -310,11 +310,13 @@ footer
         column-gap:31px;
         border: none;
         align-items: center;
+        height: auto;
+        margin-bottom: 30px;
     }
    
   .logos:last-child
   {
-   border: 1px solid red;
+   grid-area: 3/2;
   }
 
     .banner-design

@@ -312,7 +312,10 @@ footer
         align-items: center;
     }
    
-  
+  .logos:last-child
+  {
+   border: 1px solid red;
+  }
 
     .banner-design
     {
@@ -448,6 +451,9 @@ ul > li:after
     
 }
 
+footer{
+    padding: 5px 2px;
+}
 
 }
 

@@ -17,7 +17,11 @@
     font-size: 24px;
     height: 52px;
    
-    
+}
+
+.mobile
+{
+    display: none;
 }
 
 nav
@@ -302,6 +306,20 @@ footer
 }
 
 @media only screen and (max-width:688px) {
+    .nav-title
+    {
+        font-size: 16px;
+        height: 24px;
+        width: 162px;
+        text-align: center;
+    }
+
+nav{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+
     .banner-logos
     {
         width: 275px;

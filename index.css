@@ -313,7 +313,10 @@ footer
         width: 162px;
         text-align: center;
     }
-
+.mobile
+{
+    display: inline-block;
+}
 nav{
     display: flex;
     align-items: center;

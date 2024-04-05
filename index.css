@@ -1,0 +1,444 @@
+/*font style import*/
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+  }
+  body
+  {
+    margin: 0;
+  }
+
+/* Nav bar design */
+.nav-title
+{
+    font-weight: 700;
+    font-size: 24px;
+    height: 52px;
+   
+    
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.fa-list-ul
+{
+    /* display: none; */
+  
+}
+
+nav ul
+{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li
+{
+    list-style: none;
+    font-weight: 700;
+    padding: 10px;
+  
+}
+
+nav ul li:hover
+{
+   background-color: rgb(183, 182, 182);
+   padding: 10px;
+   border-radius: 5px;
+}
+
+/* banner design */
+
+.banner-container
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+}
+
+.banner-design
+{
+ 
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ width: 1400px;
+ margin: 100px auto 0 auto;
+
+}
+
+.banner-title
+{
+    font-size: 52px;
+    font-weight: 700;
+    height:133px ;
+    width: 582px;
+}
+
+.banner-description,.feature-description
+{
+    height: 60px;
+    width: 505px;
+    font-size: 16px;
+    white-space: wrap;
+   
+}
+
+.banner-col2
+{
+    background-image: url('images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ 
+.btn
+{
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: #f6005a;
+    cursor: pointer;
+}
+.fa-solid.fa-arrow-right{
+    color: #FFFFFF;
+}
+.banner-logos  
+{
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 60px;
+   border-bottom: 2px inset #C0CCDA;
+   border-top: 2px outset #C0CCDA;
+   margin: 100px auto 100px auto;
+   height: 110px;
+   width: 1110px;
+}
+
+/* Product collection design */
+
+.section-title
+{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 28px;
+    font-weight: 550;
+    
+}
+
+.product-container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1047px;
+    margin: auto;
+}
+
+.product-collection
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 10px;
+}
+
+.product-detail
+{
+    box-shadow: 1px 1px 20px gray;
+    padding: 15px;
+    border-radius: 8px;
+    
+}
+
+.fa-star,.fa-solid.fa-star-half-stroke
+{
+    color: #FB8200;
+    height: 10px;
+    width: 11px;
+    
+}
+.rating
+{
+    display: flex;
+    gap: 8px;
+    align-items: first baseline;
+    
+}
+.product-name
+{
+    font-size: 28px;
+    margin: 0px;
+}
+
+.product-price
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-description
+{
+    height: 61px;
+    width: 196px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+a,.fa-arrow-right.see
+{
+    text-decoration: none;
+    color: #E02C6D;
+   
+}
+
+.see-more
+{
+    text-align: right;
+}
+
+/* feature product design */
+
+.feature-product-container
+{
+    margin: 100px auto 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1110px;
+}
+
+
+.feature-section
+{
+    display: flex;
+    gap: 96px;
+}
+
+.feature-title
+{
+    font-size: 38px;
+    font-weight: 700;
+
+}
+
+.feature-description
+{
+    color: #6C6C6C;
+ 
+}
+
+.feature-btn
+{
+    height: 44px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    width: 155px;
+    margin-top: 2%;
+}
+
+.fa-arrow-right{
+
+    color: #FFFFFF;
+    padding: 10px 5px 10px 8px;
+}
+
+
+/* Footer Design */
+
+footer
+{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-title,.icon-colour
+{
+    color: #FFFFFF;
+}
+
+.footer-description
+{
+    color: #D9DBE1;
+}
+
+.icons
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.icon-colour
+{
+    background-color:#0d0850 ;
+    padding:15px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:688px) {
+    .banner-logos
+    {
+        width: 275px;
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        column-gap:31px;
+        border: none;
+        align-items: center;
+    }
+   
+  
+
+    .banner-design
+    {
+     
+     flex-direction: column-reverse;
+     width: 100%;
+     text-align: center;
+    
+    }
+ 
+    .banner-title
+{
+    font-size: 28px;
+    font-weight: 700;
+    width: 100%;
+    height: auto;
+    
+}
+
+.banner-description,.feature-description
+{
+    width:100%;
+    font-size: 14px;
+    white-space: wrap;
+    
+   
+}
+
+.banner-col2
+{
+   background-position: center;
+}
+ 
+
+.banner-col2 img
+{
+    width: 100%;
+  
+}
+
+.product-collection
+{
+   
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.product-container
+{
+    width: 100%;
+    
+}
+.product-detail
+{
+    width: 80%;
+    margin: auto;
+}
+
+.see-more
+{
+    width:90%;
+}
+
+.feature-product-container
+{
+    width: 100%;
+
+}
+
+.feature-section
+{
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+}
+
+
+.feature-title
+{
+    font-size: 24px;
+    text-align: center;
+
+}
+.feature-description
+{
+    text-align:center;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.feature-btn
+{
+    
+     display: flex;
+     margin: 30% auto auto auto; 
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+}
+
+nav ul{display: none;}
+
+.fa-list-ul:hover + ul
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 0;
+    right: 0;
+    width: 50%;
+    background-color: rgb(239, 228, 241);
+    text-align: center;
+}
+
+ul > li:after
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: .5px;
+    background-color: rgb(216, 160, 160);
+    margin-top: 5px;
+    
+}
+
+
+}
+

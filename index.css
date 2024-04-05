@@ -450,13 +450,14 @@ nav ul{
   
 }
 
-.fa-list-ul:hover + ul
+.fa-list-ul:hover + h2 + .mobile + ul
 {
     display: flex;
     flex-direction: column;
     position: absolute;
     padding: 0;
-    right: 0;
+    left:0;
+    top: 15px;
     width: 50%;
     background-color: rgb(239, 228, 241);
     text-align: center;
